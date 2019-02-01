@@ -1,0 +1,201 @@
+[16-Dec-2018 16:31:45 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/dashboard.php:25
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): dashboard::index()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('index', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/dashboard.php on line 25
+[28-Dec-2018 12:05:34 Asia/Riyadh] PHP Fatal error:  Uncaught Error: Call to undefined method register::generateReset() in /home1/abdulsalam/portal.yonderedu.com/application/modules/register/controllers/register.php:77
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): register::send_email()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('send_email', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/register/controllers/register.php on line 77
+[28-Dec-2018 19:56:45 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:227
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 227
+[28-Dec-2018 19:56:51 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:227
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 227
+[28-Dec-2018 19:56:53 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:227
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 227
+[28-Dec-2018 19:56:53 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:227
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 227
+[28-Dec-2018 20:04:43 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/coupons.php:91
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): coupons::delete('7')
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('delete', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/coupons.php on line 91
+[28-Dec-2018 20:11:28 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/views/coupons/list.php on line 79
+[28-Dec-2018 20:11:47 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/views/coupons/list.php on line 79
+[28-Dec-2018 20:11:58 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/views/coupons/list.php on line 79
+[28-Dec-2018 20:12:10 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/views/coupons/list.php on line 79
+[28-Dec-2018 20:12:52 Asia/Kolkata] PHP Parse error:  syntax error, unexpected 'endif' (T_ENDIF) in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/views/coupons/list.php on line 79
+[28-Dec-2018 21:48:04 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[10-Jan-2019 15:39:39 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[10-Jan-2019 15:39:42 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[10-Jan-2019 15:39:45 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[10-Jan-2019 15:39:47 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[10-Jan-2019 15:39:48 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[10-Jan-2019 15:39:58 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[10-Jan-2019 21:09:15 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[10-Jan-2019 21:09:18 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[10-Jan-2019 21:09:21 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[10-Jan-2019 21:09:24 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[10-Jan-2019 21:09:25 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[10-Jan-2019 21:09:27 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[10-Jan-2019 21:09:30 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[10-Jan-2019 21:09:30 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[10-Jan-2019 21:09:32 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[10-Jan-2019 21:10:09 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[10-Jan-2019 21:10:11 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php:231
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): messages::get_namesby_agent()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('get_namesby_age...', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/messages.php on line 231
+[20-Jan-2019 09:50:03 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/receipts.php:48
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): receipts::add()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('add', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/receipts.php on line 48
+[20-Jan-2019 09:50:34 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/receipts.php:48
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): receipts::add()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('add', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/receipts.php on line 48
+[20-Jan-2019 10:04:35 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Using $this when not in object context in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/receipts.php:48
+Stack trace:
+#0 /home1/abdulsalam/portal.yonderedu.com/application/third_party/MX/Controller.php(173): receipts::add()
+#1 /home1/abdulsalam/portal.yonderedu.com/system/core/CodeIgniter.php(326): MX_Controller->_remap('add', Array)
+#2 /home1/abdulsalam/portal.yonderedu.com/index.php(205): require_once('/home1/abdulsal...')
+#3 {main}
+  thrown in /home1/abdulsalam/portal.yonderedu.com/application/modules/admin/controllers/receipts.php on line 48

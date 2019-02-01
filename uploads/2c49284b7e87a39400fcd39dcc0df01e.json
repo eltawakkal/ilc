@@ -1,0 +1,346 @@
+{
+	"id": "265d66e0-dc04-9793-dbb1-d6f374f89243",
+	"name": "delivary",
+	"description": "",
+	"order": [
+		"8dc8a719-368d-fcf6-330f-2a2703efa308",
+		"658ae136-c025-8945-ec86-b15b240db86a",
+		"fcfb8178-7d88-c597-05e7-eba066931140",
+		"4d99f693-42b5-d2ba-fb4c-5d5a965f446a",
+		"c449a136-bd10-5451-63e4-f07d87ab954e",
+		"bd02ad2e-5681-35d3-7759-9dd71fdb1984",
+		"573cec18-90e6-72c3-beb3-8b4440f4d8f0",
+		"e0953a84-8be6-0c08-78e6-c955722babc3"
+	],
+	"folders": [],
+	"timestamp": 1493668499506,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "4d99f693-42b5-d2ba-fb4c-5d5a965f446a",
+			"headers": "",
+			"url": "daoatech.com/restaurants/index.php/register/register/check_login",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "265d66e0-dc04-9793-dbb1-d6f374f89243",
+			"data": [
+				{
+					"key": "phone",
+					"value": "0599266171",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123654",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lang",
+					"value": "ar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "daoatech.com/restaurants/index.php/register/register/check_login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1494874914051,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "573cec18-90e6-72c3-beb3-8b4440f4d8f0",
+			"headers": "",
+			"headerData": [],
+			"url": "daoatech.com/restaurants/index.php/register/register/get_status_delivery",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "265d66e0-dc04-9793-dbb1-d6f374f89243",
+			"data": [
+				{
+					"key": "delivery_id",
+					"value": "592dc4d299ea1",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "daoatech.com/restaurants/index.php/register/register/get_status_delivery",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1496698717263,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "658ae136-c025-8945-ec86-b15b240db86a",
+			"headers": "",
+			"headerData": [],
+			"url": "127.0.0.1/restaurants/index.php/register/register/change_password",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "0599266174",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "old_password",
+					"value": "123456",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lang",
+					"value": "ar",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1496308307588,
+			"name": "daoatech.com/restaurants/index.php/register/register/get_orders",
+			"description": "",
+			"collectionId": "265d66e0-dc04-9793-dbb1-d6f374f89243",
+			"responses": []
+		},
+		{
+			"id": "8dc8a719-368d-fcf6-330f-2a2703efa308",
+			"headers": "",
+			"url": "daoatech.com/restaurants/index.php/register/register/get_orders_history",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "265d66e0-dc04-9793-dbb1-d6f374f89243",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "58fbb383d1c36",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lang",
+					"value": "ar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "daoatech.com/restaurants/index.php/register/register/get_orders_history",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1493829330395,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "bd02ad2e-5681-35d3-7759-9dd71fdb1984",
+			"headers": "",
+			"headerData": [],
+			"url": "http://daoatech.com/restaurants/index.php/register/register/sendsms",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "265d66e0-dc04-9793-dbb1-d6f374f89243",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "58fbb383d1c36",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "order_id",
+					"value": "21545445",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "4",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "disapprove_cause",
+					"value": "لانه غير مناسبggg",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lang",
+					"value": "ar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "daoatech.com/restaurants/index.php/register/register/update_order_status",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1496357532633,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c449a136-bd10-5451-63e4-f07d87ab954e",
+			"headers": "",
+			"headerData": [],
+			"url": "http://daoatech.com/restaurants/index.php/register/register/change_password",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "265d66e0-dc04-9793-dbb1-d6f374f89243",
+			"data": [
+				{
+					"key": "phone",
+					"value": "0599266171",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "old_password",
+					"value": "123654",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "new_password",
+					"value": "123654",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lang",
+					"value": "ar",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "http://daoatech.com/restaurants/index.php/register/register/change_password",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1496328255852,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e0953a84-8be6-0c08-78e6-c955722babc3",
+			"headers": "",
+			"headerData": [],
+			"url": "daoatech.com/restaurants/index.php/register/register/update_status_delivery",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "265d66e0-dc04-9793-dbb1-d6f374f89243",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "592dc4d299ea1",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "status",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lang",
+					"value": "ar",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "daoatech.com/restaurants/index.php/register/register/update_status_delivery",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1496699022888,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "fcfb8178-7d88-c597-05e7-eba066931140",
+			"headers": "",
+			"url": "daoatech.com/restaurants/index.php/register/register/get_financial_report",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "265d66e0-dc04-9793-dbb1-d6f374f89243",
+			"data": [
+				{
+					"key": "user_id",
+					"value": "58fbb383d1c36",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "lang",
+					"value": "ar",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"name": "daoatech.com/restaurants/index.php/register/register/get_financial_report",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1493840936323,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}

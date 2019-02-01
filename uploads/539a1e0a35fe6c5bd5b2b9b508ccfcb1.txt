@@ -1,0 +1,36 @@
+1. E-Registration system for internship doctors. PHP Codeigniter + oracle. http://apps.moh.gov.ps/license/ 
+
+2. PHC (Primary Health Care) system. PHP + oracle.  http://apps.moh.gov.ps/per/ 
+
+3. Health insurance system. PHP Codeigniter + oracle. 
+
+4. http://academic.iugaza.edu.ps/ . ASP.NET + sql server.
+
+5.
+
+
+
+* Virtual Job, Palestinian Institutefor Trainingfor Employment (EFE),60 hour, 2015.
+* PHP Codeigniter, Ministry of Health,48 hour, 2013.
+* Agile Software Engineering Methodology, Ministry of Health,48 hour, 2012.
+* PHP, wordpress, and joomla content management system, PICTA, 48 hour, 2011.
+* PHP& HTML& CSS & MYSQL in Islamic university,60 hour ,2011.
+* Photoshop in Islamic university 2 weeks ,2011
+* Training in network field, 48 hour, Islamic University of Gaza, 2009.
+* ASP.NET& HTML& CSS&SQLServer in Link company ,68 hour, 2009.
+* ICDL(Word, Excel, Access, Project, Outlook) inEl-shafae center, 80
+hour, 2009.
+
+
+
+1. The Islamic University, Gaza, Palestine as web developer from 12/10/2010 - 15/01/2012 
+PHP + ASP.NET + mysql, sql server
+
+2. The Ministry of Health, Gaza, Palestine as web developer from 23/03/2012 - till now
+PHP + PHP Codeigniter + Oracle
+
+
+https://www.youtube.com/watch?v=SJ-RyDl5E7U
+MSSQLSERVER
+
+@"^([\w]+)@([\w]+)\.([\w]+)$"

@@ -1,0 +1,14 @@
+
+
+ËÈÊ åĞå ÇáÍÇáÇÊ
+submitted >>> ÈÚÏ ÑİÚ ÇáÇÈáßíÔä
+processing >> ÚäÏ ÊÍæíáåÇ Çáì ÇáÌÇãÚÉ Çæ ÇáãÚåÏ
+conditional offer >> ÇĞÇ ÌÇÁ ÑÏ ãä ÇáÌÇãÚÉ ÈŞÈæá ãÔÑæØ
+Offered >> ÚäÏ ÇáÍÕæá Úáì ÚÑÖ
+- Val
+- Enrolled
+- payment proocessing
+- Canceled
+- Rejected
+
+ÇáæÖÚ ÇáÊáŞÇÆí default Êßæä submitted æÇĞÇ İí Çí ÊÛííÑ íŞæã ÇáÇÏãä ÈÇáÊÛííÑ
